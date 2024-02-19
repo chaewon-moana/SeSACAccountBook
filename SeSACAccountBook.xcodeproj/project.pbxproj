@@ -19,6 +19,16 @@
 		DE7D564C2B7C401B0060BE42 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = DE7D564B2B7C401B0060BE42 /* FSCalendar */; };
 		DE7D564F2B7C40240060BE42 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = DE7D564E2B7C40240060BE42 /* Toast */; };
 		DE7D56542B7C40DE0060BE42 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D56532B7C40DE0060BE42 /* BaseViewController.swift */; };
+		DE7D56562B7C45660060BE42 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D56552B7C45660060BE42 /* MainViewController.swift */; };
+		DE7D56582B7C45BD0060BE42 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D56572B7C45BD0060BE42 /* AddViewController.swift */; };
+		DE7D565A2B7C54880060BE42 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D56592B7C54880060BE42 /* MoneyViewController.swift */; };
+		DE7D565C2B7C62C10060BE42 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D565B2B7C62C10060BE42 /* CategoryViewController.swift */; };
+		DE7D565E2B7C68450060BE42 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D565D2B7C68450060BE42 /* MemoViewController.swift */; };
+		DE7D569B2B7DAA250060BE42 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE7D569A2B7DAA250060BE42 /* Realm */; };
+		DE7D569D2B7DAA250060BE42 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE7D569C2B7DAA250060BE42 /* RealmSwift */; };
+		DE7D56A02B7DAC810060BE42 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D569F2B7DAC810060BE42 /* RealmModel.swift */; };
+		DEA87BE22B7EF49600DD899E /* AccountBookTableRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA87BE12B7EF49600DD899E /* AccountBookTableRepository.swift */; };
+		DEA87BEF2B82FF8C00DD899E /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA87BEE2B82FF8C00DD899E /* FileManager+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +41,14 @@
 		DE7D56392B7C3F750060BE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7D563B2B7C3F750060BE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE7D56532B7C40DE0060BE42 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DE7D56552B7C45660060BE42 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE7D56572B7C45BD0060BE42 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		DE7D56592B7C54880060BE42 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		DE7D565B2B7C62C10060BE42 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		DE7D565D2B7C68450060BE42 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		DE7D569F2B7DAC810060BE42 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		DEA87BE12B7EF49600DD899E /* AccountBookTableRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBookTableRepository.swift; sourceTree = "<group>"; };
+		DEA87BEE2B82FF8C00DD899E /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7D569B2B7DAA250060BE42 /* Realm in Frameworks */,
 				DE7D56492B7C3FC70060BE42 /* SnapKit in Frameworks */,
+				DE7D569D2B7DAA250060BE42 /* RealmSwift in Frameworks */,
 				DE7D564C2B7C401B0060BE42 /* FSCalendar in Frameworks */,
 				DE7D56432B7C3FB40060BE42 /* Kingfisher in Frameworks */,
 				DE7D564F2B7C40240060BE42 /* Toast in Frameworks */,
@@ -68,6 +88,8 @@
 		DE7D562C2B7C3F730060BE42 /* SeSACAccountBook */ = {
 			isa = PBXGroup;
 			children = (
+				DEA87BED2B82FF6D00DD899E /* Extension */,
+				DE7D569E2B7DAC740060BE42 /* Realm */,
 				DE7D56522B7C40C60060BE42 /* Base */,
 				DE7D56512B7C409E0060BE42 /* Add */,
 				DE7D56502B7C40970060BE42 /* Main */,
@@ -85,6 +107,7 @@
 		DE7D56502B7C40970060BE42 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DE7D56552B7C45660060BE42 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -92,6 +115,10 @@
 		DE7D56512B7C409E0060BE42 /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				DE7D56572B7C45BD0060BE42 /* AddViewController.swift */,
+				DE7D56592B7C54880060BE42 /* MoneyViewController.swift */,
+				DE7D565B2B7C62C10060BE42 /* CategoryViewController.swift */,
+				DE7D565D2B7C68450060BE42 /* MemoViewController.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -102,6 +129,23 @@
 				DE7D56532B7C40DE0060BE42 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		DE7D569E2B7DAC740060BE42 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				DE7D569F2B7DAC810060BE42 /* RealmModel.swift */,
+				DEA87BE12B7EF49600DD899E /* AccountBookTableRepository.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		DEA87BED2B82FF6D00DD899E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEA87BEE2B82FF8C00DD899E /* FileManager+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +170,8 @@
 				DE7D56482B7C3FC70060BE42 /* SnapKit */,
 				DE7D564B2B7C401B0060BE42 /* FSCalendar */,
 				DE7D564E2B7C40240060BE42 /* Toast */,
+				DE7D569A2B7DAA250060BE42 /* Realm */,
+				DE7D569C2B7DAA250060BE42 /* RealmSwift */,
 			);
 			productName = SeSACAccountBook;
 			productReference = DE7D562A2B7C3F730060BE42 /* SeSACAccountBook.app */;
@@ -161,6 +207,7 @@
 				DE7D56472B7C3FC60060BE42 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				DE7D564A2B7C401B0060BE42 /* XCRemoteSwiftPackageReference "FSCalendar" */,
 				DE7D564D2B7C40240060BE42 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				DE7D56992B7DAA250060BE42 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = DE7D562B2B7C3F730060BE42 /* Products */;
 			projectDirPath = "";
@@ -191,8 +238,16 @@
 			files = (
 				DE7D56322B7C3F730060BE42 /* ViewController.swift in Sources */,
 				DE7D56542B7C40DE0060BE42 /* BaseViewController.swift in Sources */,
+				DE7D56582B7C45BD0060BE42 /* AddViewController.swift in Sources */,
+				DE7D56A02B7DAC810060BE42 /* RealmModel.swift in Sources */,
 				DE7D562E2B7C3F730060BE42 /* AppDelegate.swift in Sources */,
+				DEA87BEF2B82FF8C00DD899E /* FileManager+Extension.swift in Sources */,
+				DE7D565C2B7C62C10060BE42 /* CategoryViewController.swift in Sources */,
 				DE7D56302B7C3F730060BE42 /* SceneDelegate.swift in Sources */,
+				DE7D565A2B7C54880060BE42 /* MoneyViewController.swift in Sources */,
+				DEA87BE22B7EF49600DD899E /* AccountBookTableRepository.swift in Sources */,
+				DE7D56562B7C45660060BE42 /* MainViewController.swift in Sources */,
+				DE7D565E2B7C68450060BE42 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +518,14 @@
 				minimumVersion = 5.1.0;
 			};
 		};
+		DE7D56992B7DAA250060BE42 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.47.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -490,6 +553,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE7D564D2B7C40240060BE42 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
 			productName = Toast;
+		};
+		DE7D569A2B7DAA250060BE42 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7D56992B7DAA250060BE42 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DE7D569C2B7DAA250060BE42 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7D56992B7DAA250060BE42 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
